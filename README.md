@@ -24,7 +24,7 @@ The code snippet above gives an example of a potential network where the person[
 
 These functionalities are related to the network structure and are perhaps the most trivial in terms of both understanding and implementation. These functionalities also acts as utility/helper functions for further computation intensive features.
 ```scala
-/*Network Level Functionalities*/  
+// Network Level Functionalities 
 
 def networkMap: Network  // Map based architecture of the network
 def addPerson(person :Person) : Network  // adds a person(node) to the network
