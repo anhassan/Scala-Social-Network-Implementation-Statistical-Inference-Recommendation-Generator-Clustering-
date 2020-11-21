@@ -10,6 +10,7 @@ This application is an implementation of a social network using the power of Sca
 Given below is a detailed diagram of the architecture which is discussed thoroughly throughout the coming sections.
 
 ![picture](assets/ScalaSocialNetwork.png)
+<div style="text-align:center"><img src="assets/ScalaSocialNetwork.png" /></div>
 
 ```scala
 // Potential Network
