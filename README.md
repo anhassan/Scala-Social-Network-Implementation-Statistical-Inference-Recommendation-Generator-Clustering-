@@ -9,9 +9,9 @@ This application is an implementation of a social network using the power of Sca
  The design of the application is fairly straight forward. The implementation of social network is derived from an abstract base class (`Network`) to keep the solution generic. Three different types of functionalities(network level, node level and statistical based) are implemented via method implementations. A network can have as many nodes(users) as desired. Each node has a set of attributes related to it and each one of it is connected to a group of nodes via a mutual relationship(friendship in our case).
 Given below is a detailed diagram of the architecture which is discussed thoroughly throughout the coming sections.
 
-<div></div>
-<div style="display:block;text-align:center"><img src="assets/ScalaSocialNetwork.png" /></div>
-<div></div>
+<p align="center">
+  <img src="assets/ScalaSocialNetwork.png" />
+</p>
 
 ```scala
 // Potential Network
