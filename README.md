@@ -80,6 +80,8 @@ Here we can clearly see how clusters are formed on the basis of regions and how 
 The function definitions below show all the analytical & inference based functions. Even though the more important and interesting ones are discussed above, all of the available functions are listed below.
 
 ````scala
+//// Analytics & Inference based functionalities(Recommendation Generator & Feature Cluster)
+
 def numUnconnected : Int  // gives the number of node with no association(friends)
 def mostFamous:List[Person]  // gives the node which is present in the association(friend) list of most nodes
 def leastFamous: List[Person]  // gives the node which is present in the association(friend) list of least nodes
