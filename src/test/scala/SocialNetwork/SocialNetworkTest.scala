@@ -65,10 +65,6 @@ class SocialNetworkTest extends AnyFunSuite {
 
   }
 
-  test("unfriend"){
-
-  }
-
   test("mutualFriends") {
 
     val mutualFriendsSet1 = socialNetwork.mutualFriends(person1, person4)
