@@ -65,18 +65,6 @@ class SocialNetworkTest extends AnyFunSuite {
 
   }
 
-  test("friend") {
-    val newPerson = Person(7, "Mary", "2001", 2, "NorthYork")
-    //val updatedSocialNetwork = socialNetwork.friend(newPerson, person1)
-      //.friend(newPerson, person6)
-    //assert(updatedSocialNetwork.numFriends(person1)===3)
-    //assert(updatedSocialNetwork.numFriends(person6)===1)
-    //assert(updatedSocialNetwork.numFriends(newPerson)==2)
-    //assert(updatedSocialNetwork.isFriend(person1,newPerson))
-    //assert(updatedSocialNetwork.isFriend(person6,newPerson))
-    //assert(updatedSocialNetwork.numUsers===7)
-  }
-
   test("unfriend"){
 
   }
